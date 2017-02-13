@@ -10,4 +10,8 @@ public class Utils {
 		Log.w(LOG_TAG, "You're using the deprecated " + depreacted + " attr, please switch over to " + replacement);
 	}
 
+	public static float floor(float values) {
+		return (float) Math.floor(values);
+	}
+
 }
