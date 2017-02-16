@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">示例APP</string>
+    <string name="app_name">阅读</string>
     <string name="action_settings">设置</string>
+
+    <string name="splash_name">纯粹的阅读</string>
+
+    <string name="reader_shelf">书架</string>
+    <string name="reader_discovery">发现</string>
 </resources>

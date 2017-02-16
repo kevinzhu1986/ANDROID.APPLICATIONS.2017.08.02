@@ -1,4 +1,9 @@
 <resources>
-    <string name="app_name">DemoApp</string>
+    <string name="app_name">Pure Reader</string>
     <string name="action_settings">Settings</string>
+
+    <string name="splash_name">Pure Reader</string>
+
+    <string name="reader_shelf">Shelf</string>
+    <string name="reader_discovery">Discovery</string>
 </resources>

@@ -1,9 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
+        <!--<style name="MyAppTheme" parent="MyAppBaseTheme">-->
+                <!--<item name="android:focusable">false</item>-->
+                <!--&lt;!&ndash; 缓存背景用透明色，以防止拖动时显示黑色&ndash;&gt;-->
+                <!--<item name="android:colorBackgroundCacheHint">#00000000</item>-->
+                <!--<item name="android:textColor">#ff000000</item>-->
+                <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+                <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+                <!--<item name="android:colorPrimary">@color/colorPrimary</item>-->
+                <!--<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>-->
+                <!--<item name="android:colorAccent">@color/colorAccent</item>-->
+        <!--</style>-->
 </resources>

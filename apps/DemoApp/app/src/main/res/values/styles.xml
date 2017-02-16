@@ -17,4 +17,15 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="MyAppBaseTheme" parent="@android:style/Theme.Material.Light.NoActionBar"/>
+
+    <style name="MyAppTheme" parent="MyAppBaseTheme">
+        <item name="android:focusable">false</item>
+        <!-- 缓存背景用透明色，以防止拖动时显示黑色-->
+        <item name="android:colorBackgroundCacheHint">#00000000</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>
