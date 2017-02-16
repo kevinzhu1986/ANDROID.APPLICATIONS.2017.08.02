@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:orientation="horizontal"
+        android:background="@color/title_bg_color">
+
+        <TextView
+            android:id="@+id/title_shelf"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="@string/title_shelf"
+            android:textColor="@color/text_pressed_color"
+            android:textAllCaps="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/title_discovery"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:text="@string/title_discovery"
+            android:textColor="@color/text_normal_color"
+            android:textAllCaps="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/divided_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_container"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/divided_line">
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
