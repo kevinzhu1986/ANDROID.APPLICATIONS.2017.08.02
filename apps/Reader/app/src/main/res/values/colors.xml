@@ -8,4 +8,6 @@
 
     <color name="text_normal_color">#b7b7b7</color>
     <color name="text_pressed_color">#fff</color>
+
+    <color name="shelf_list_empty_text_color">#ffc6c6c6</color>
 </resources>

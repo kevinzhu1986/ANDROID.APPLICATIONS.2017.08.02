@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shelf_emtpy_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/shelf_emtpy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/shelf_empty_icon_padding_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bookshelf_empty_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_19"
+            android:textColor="@color/shelf_list_empty_text_color"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/shlef_empty_text_margin_top"
+            android:text="@string/shelf_list_empty_text" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

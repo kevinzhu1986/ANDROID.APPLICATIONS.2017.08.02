@@ -4,4 +4,6 @@
     <string name="title_shelf">Shelf</string>
 
     <string name="title_discovery">Discovery</string>
+
+    <string name="shelf_list_empty_text">"Add your interest book"</string>
 </resources>

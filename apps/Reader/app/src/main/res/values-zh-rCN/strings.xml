@@ -5,4 +5,6 @@
     <string name="title_shelf">书架</string>
 
     <string name="title_discovery">发现</string>
+
+    <string name="shelf_list_empty_text">"添加你喜爱的小说"</string>
 </resources>
